@@ -34,7 +34,7 @@ jobs:
         run: |
           mkdir public
           ls -ls
-          pyhon3 nxp_pr_queue.py
+          python3 nxp_pr_queue.py
 
       - name: Setup pages
         uses: actions/configure-pages@v4
